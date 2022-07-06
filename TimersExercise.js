@@ -14,7 +14,7 @@ function randomGame(){
         count ++;                               
         if(Math.random() > .75){                //Clear ID and return num of tries if rand num is greater than .75
             clearInterval(id);
-            return console.log(count);
+            return console.log(count); 
         }
     }
 }
