@@ -6,7 +6,6 @@ function countDown(num){
     setTimeout(countDown, 1000,num-1);          //If the number is not 0, call function again with num-1
 }
 
-
 function randomGame(){
     let count = 0;
     let id = setInterval(findNumber, 1000);     //Keep track of id to clear interval.
